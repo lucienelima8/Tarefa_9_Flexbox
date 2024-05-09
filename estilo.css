@@ -1,9 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*preenchimento e borda na largura e altura total do elemento*/
+    box-sizing: border-box;
+
+}
+
 body {
     background-color: #ccc;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 
 }
+
+header {
+    background-color: rgb(71, 161, 247);
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.62rem;
+    text-align: center;
+
+}
+
+/*Tem o container e os quadradinhos*/
+main {
+    display: flex;
+
+
+}
+
+
 
 
 
