@@ -6,8 +6,9 @@
 
 }
 
+
 body {
-    background-color: #ccc;
+    /*background-color: #ccc;*/
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -21,18 +22,72 @@ header {
     padding: 1rem;
     margin: 0.62rem;
     text-align: center;
+    /*box-shadow: 0 0.12rem 0.12rem 0 yellow;*/
 
 }
 
 /*Tem o container e os quadradinhos*/
 main {
     display: flex;
+    /*permite aumentar a larg dos elementos dentro do conteiner completando o espaço disponível do eixo principal*/
+    flex-grow: 1;
+
+}
+
+/*Container com todos os quadradinhos*/
+container {
+    background-color: green;
+    border-radius: 1rem;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: space-around;
+    /*esticar por todo o eixo transversal*/
+    align-items: stretch;
+    margin: 0.62rem;
+    padding: 1rem;
+    
+
+
+}
+
+/*Sidebar*/
+aside {
+    width: 12.5rem;
+    border-radius: 1rem;
+    background-color: rgb(245, 71, 71);
+    color: white;
+    padding: 1rem;
+    margin: 0.62rem;
+    /*box-shadow: 0 0.12rem 0.12rem 0 yellow;*/
+    /*justify-content: flex-end;*/
+    /*flex-direction: right;*/
+
+}
+
+/*Cada quadradinho*/
+.div_quadrado {
+    background-color: green;
+    width: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+
+/*TERMINAR ESSA PARTE NÃO ESTOU ACERTANDO*/
 
 
 }
 
 
+footer {
+    background-color: rgb(71, 161, 247);
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 0.62rem;
+    text-align: center;
+    box-shadow: 0 0.12rem 0.12rem 0 yellow;
 
+    
+}
 
 
 
