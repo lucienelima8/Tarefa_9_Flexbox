@@ -11,6 +11,7 @@ body {
     /*background-color: #ccc;*/
     display: flex;
     flex-direction: column;
+    /*altura mín do elemento deve ser 100% da altura da janela de visualização*/
     min-height: 100vh;
 
 }
@@ -18,11 +19,13 @@ body {
 header {
     background-color: rgb(71, 161, 247);
     color: white;
-    border-radius: 1rem;
+    border-radius: .4rem;
     padding: 1rem;
     margin: 0.62rem;
     text-align: center;
-    /*box-shadow: 0 0.12rem 0.12rem 0 yellow;*/
+    /*box-shadow: 0 0.12rem 0.12rem blue;*/
+    box-shadow: 0 0.5rem 0.5rem blue;
+
 
 }
 
@@ -45,6 +48,7 @@ container {
     align-items: stretch;
     margin: 0.62rem;
     padding: 1rem;
+    width: 80%;
     
 
 
@@ -53,14 +57,16 @@ container {
 /*Sidebar*/
 aside {
     width: 12.5rem;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
     background-color: rgb(245, 71, 71);
     color: white;
     padding: 1rem;
     margin: 0.62rem;
-    /*box-shadow: 0 0.12rem 0.12rem 0 yellow;*/
+    /*box-shadow: 0 0.12rem 0.12rem 0 blue;*/
     /*justify-content: flex-end;*/
     /*flex-direction: right;*/
+    box-shadow: 0 0.5rem 0.5rem red;
+
 
 }
 
@@ -80,11 +86,12 @@ aside {
 footer {
     background-color: rgb(71, 161, 247);
     color: white;
-    border-radius: 1rem;
+    border-radius: 0.4rem;
     padding: 1rem;
     margin: 0.62rem;
     text-align: center;
-    box-shadow: 0 0.12rem 0.12rem 0 yellow;
+    /*box-shadow: 0 0.12rem 0.12rem blue;*/
+    box-shadow: 0 0.5rem 0.5rem blue;
 
     
 }
