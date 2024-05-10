@@ -68,6 +68,7 @@ aside {
     box-shadow: 0 0.5rem 0.5rem red;
 
 
+
 }
 
 /*Cada quadradinho*/
@@ -78,8 +79,15 @@ aside {
     text-align: center;
 
 /*TERMINAR ESSA PARTE NÃO ESTOU ACERTANDO*/
-
-
+    background-color: green;
+    width: 80%;
+    box-shadow: 0 0.5rem 0.5rem green;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    margin: 0.62rem;
+    
+    
 }
 
 
