@@ -84,18 +84,26 @@ article {
 /*Cada conjunto de quadrados*/
 .div_quadrado {
     /*TERMINAR ESSA PARTE NÃO ESTOU ACERTANDO*/
-     background-color: green;
-     width: 80%;
-     box-shadow: 0 0.5rem 0.5rem green;
-     display: flex;
-     justify-content: center;
-     text-align: center;
-     color: white;
-     padding: 1rem;
-     margin: 0.62rem;
+    background-color: green;
+    width: 80%;
+    box-shadow: 0 0.5rem 0.5rem green;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    margin: 0.62rem;  
+    
      
-     
-     
+ }
+
+ 
+.div_invisível {
+    /*Mantem o espaço do item mas não mostra no html*/
+    /*elemento é renderizado e seu espaço reservado mas o seu conteúdo não é exibido*/
+    visibility:hidden;
+    
  }
 
 
