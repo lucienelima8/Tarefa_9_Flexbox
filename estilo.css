@@ -17,6 +17,7 @@ body {
 
 }
 
+
 header {
     background-color: rgb(71, 161, 247);
     color: white;
@@ -26,7 +27,7 @@ header {
     text-align: center;
     /*box-shadow: 0 0.12rem 0.12rem blue;*/
     box-shadow: 0 0.5rem 0.5rem blue;
-
+    /*width: calc(60% - 12.5rem);*/
 
 }
 
@@ -41,9 +42,19 @@ main {
 
 }
 
+
+.div_main {
+    background-color: rgb(86, 179, 86);
+    border-radius: 0.4rem;
+    padding: 1rem;
+    margin: 0.62rem;
+
+
+}
+
 p {
     color: white;
-    margin: 1rem;
+    margin: 0.62rem;
 }
 
 /*Container com todos os quadradinhos*/
@@ -101,6 +112,7 @@ aside {
     /*justify-content: flex-end;*/
     /*flex-direction: right;*/
     box-shadow: 0 0.5rem 0.5rem red;
+    height: 45vh;
 
 
 
@@ -118,9 +130,11 @@ footer {
     /*box-shadow: 0 0.12rem 0.12rem blue;*/
     box-shadow: 0 0.5rem 0.5rem blue;
 
+
     
 }
 
+  
 
 
 
