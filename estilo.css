@@ -146,6 +146,9 @@ footer {
     
 }
 
+
+
+
  /*RESPONSIVIDADE CELULAR*/
 
  @media screen and (max-width: 1115px) {
@@ -157,9 +160,22 @@ footer {
 
     .container {
         margin: 0.62rem;
-        max-width: auto;
+        max-width: 400px;
 
     }
+
+    .card {
+        margin: 0.62rem;
+        /*max-width: auto;*/
+       
+
+
+    }
+
+   
+
+
+      
 
  }
 
