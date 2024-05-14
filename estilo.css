@@ -33,6 +33,7 @@ header {
     margin-bottom: 0.62rem;
     margin-left: 24rem;
     margin-right: 24rem;
+    text-align: left;
 
 
 }
@@ -124,6 +125,8 @@ aside {
     /*flex-direction: right;*/
     box-shadow: 0 0.5rem 0.5rem red;
     box-sizing: border-box;
+    text-align: left;
+
 
 }
 
@@ -141,6 +144,8 @@ footer {
     margin-top: 0.62rem;
     margin-left: 24rem;
     margin-right: 24rem;
+    text-align: left;
+
 
 
     
